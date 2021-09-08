@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Language Program Satisfaction</title>
+    </head>
+    <body>
+        <h1>Language Program Satisfaction</h1>
+        <form action="/signup" method="GET">
+            <p>
+                <label>Name: </label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Email: </label>
+                <input type="email" placeholder="username@theksquaregroup.com" pattern=".+@theksquaregroup\.com">
+            </p>
+            <p>
+                <label>Age: </label>
+                <input type="number" min="15" max="60">
+            </p>
+            <p>
+                <label>Select the language that you learned or practiced in our program </label>
+                <br>
+                <select>
+                    <option value = "Spanish">Spanish</option>
+                    <option value = "French">French</option>
+                    <option value = "German">German</option>
+                    <option value = "Italian">Italian</option>
+                </select>
+            </p>
+            <p>
+                <label>Do you want to receive information about our programs</label>
+                <br>
+                <input type="radio" id="Y"  name = "option" value = "Y">
+                <label>Yes</label>
+                <input type="radio" id= "N" name="option" value = "N">
+                <label>No</label>
+            </p>
+            <p>
+                <label>Let us to know what do you think about us:</label>
+                <br>
+                <textarea name= "feedback" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <label>Which of our characterictics did you like the most</label>
+                <br>
+                <input type="checkbox" id= "level" name="level" >
+                <label >Teachers level</label>
+                <br>
+                <input type="checkbox" id= "installations" name="installations" >
+                <label >Installations</label>
+                <br>
+                <input type="checkbox" id= "variety" name="variety" >
+                <label >Variety of our programs</label>
+            </p>
+            <input type="button" value = "Send">
+        </form>
+    </body>
+</html>
